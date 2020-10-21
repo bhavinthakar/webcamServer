@@ -1,4 +1,4 @@
-<!-- Client start -->
+``` Client start ```
 It is a multi-threaded webcam to weblink streaming application which means it can be simultaneously opened on multiple devices
 Mainfile: webstreaming.py
 
@@ -26,9 +26,9 @@ All the motion detection code is written in motion_detection.motion_detection.si
 
 
 
-<!-- Client End -->
+```Client End ```
 
-<!-- Server start -->
+``` Server start ```
 We will use url of the streaming weblink to collect data and storing the streams into fixed sized file at the server end
 Mainfile:videosplitter.py
 
@@ -42,4 +42,4 @@ We have set file_size to 50mb. So after 50mb it will create a new file
 
 We will read the data from weblink in chunks and storing that chunks into mp4 files
 
-<!-- Server End -->
+``` Server End ```
